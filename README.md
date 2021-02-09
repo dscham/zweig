@@ -1,2 +1,2 @@
-# zweig-ui
-Frontend for my upcoming blog
+# zweig
+My upcoming blog
