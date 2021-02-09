@@ -1,0 +1,22 @@
+:root {
+    --main-padding: 1rem;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: min(1024px, calc(100% - var(--main-padding) * 2));
+    margin: 0px auto;
+    padding: var(--main-padding);
+}
+
+section > h1, article > h1 {
+    margin: 2rem 0 .5rem 0;
+}
+
+section > p, article > p {
+    margin: 0;
+}
